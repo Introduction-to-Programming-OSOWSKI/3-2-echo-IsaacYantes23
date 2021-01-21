@@ -1,10 +1,10 @@
-def echo():
+def echo(w,y):
 
-    repeat = "hello"
+    repeate = "hello"
 
-    for i in range (repeat + 1):
-        repeat = repeat + 1
+    for i in range (y):
+        repeate = w * y
 
-        return repeat
+        return repeate
 
 print(echo("hello",5))
